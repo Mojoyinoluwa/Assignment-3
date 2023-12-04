@@ -286,11 +286,17 @@ background-color: #c3c3c3;
       
  #card 
       {
-        background-color: #c3c3c3;
+        background-color: #0d0c12;
         height: 80%;
         width: 90%;
         box-shadow: 10px 15px 20px rgba(0, 0, 0, .9);
-        
+        color: #fefae0;
+      }
+      
+  #form
+      {
+        display: inline-block;
+        float: left;
       }
       
   #side-card
@@ -299,7 +305,7 @@ background-color: #c3c3c3;
         width: 50%;
         display:inline-block;
         float:right;
-        margin-top: 95px;
+        margin-top: 150px;
         background-color: #588157;
       }
   
@@ -534,9 +540,22 @@ Pitch deck creation : Collaborating with my team members, we developed a pitch d
         <h1>
            Get in touch
         </h1>
+        
+        <div id="form">
+          <form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+        </div>
         <div id="side-card">
           
         </div>
+
+        <marquee>Thank you, and hope to get in contact soon!</marquee>
       </div>
      
     </div>
